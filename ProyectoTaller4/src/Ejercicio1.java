@@ -12,6 +12,6 @@ public class Ejercicio1 {
         //PROCESAMIENTO DE DATOS DE ENTRADA
         area = (base * altura) / 2;
         //PRESENTACION DE DATOS DE SALIDA
-        System.out.println("Area del triangulo es - " + area );
+        System.out.println("Area del triangulo es: " + area );
     }
 }

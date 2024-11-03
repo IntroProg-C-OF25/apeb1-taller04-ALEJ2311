@@ -5,7 +5,17 @@ public class Ejercicio2 {
         double hijo1, hijo2, hijo3, g_total;
         Scanner teclado = new Scanner(System.in); //PARA INGRESAR VALORES POR CONSOLA
         //INGRESO DE DATOS DE ENTRADA 
-        System.out.print("DAME EL GATO DEL PRIMER HIJO: ");
+        System.out.print("DAME EL GASTO DEL PRIMER HIJO: ");
+        hijo1 = teclado.nextDouble();
+        System.out.print("DAME EL GASTO DEL SEGUNDO HIJO: ");
+        hijo2 = teclado.nextDouble();
+        System.out.print("DAME EL GASTO DEL TERCER HIJO: ");
+        hijo3 = teclado.nextDouble();
+        //PROCESAMIENTO DE DATOS DE ENTRADA
+        g_total = (hijo1 + hijo2 +hijo3);
+        //PRESENTACION DE DATOS DE SALIDA
+        System.out.println("EL GASTO TOTAL DE LOS HIJOS ES DE: " + g_total );
+        
     }
    
 }
